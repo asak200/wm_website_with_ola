@@ -2,8 +2,8 @@ const API_BASE = "lesser-remedy-territory-removing.trycloudflare.com";
 // https://lesser-remedy-territory-removing.trycloudflare.com
 // const API_BASE = `${location.hostname}:8000`;
 // const API_BASE = "localhost:8000";
-const WM_STATES_URL = `http://${API_BASE}/wm_states`;
-const WM_TIME_URL = (id) => `http://${API_BASE}/wm_time/${id}`;
+const WM_STATES_URL = `https://${API_BASE}/wm_states`;
+const WM_TIME_URL = (id) => `https://${API_BASE}/wm_time/${id}`;
 
 const ws = new WebSocket(`ws://${API_BASE}/ws`);
 
