@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "wrangler pages deploy dist --project-name=wm-frontend"
+    "deploy": "wrangler pages deploy dist --project-name=wmfrontend"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
