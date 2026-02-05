@@ -5,8 +5,6 @@ const API_BASE = "lesser-remedy-territory-removing.trycloudflare.com";
 const WM_STATES_URL = `https://${API_BASE}/wm_states`;
 const WM_TIME_URL = (id) => `https://${API_BASE}/wm_time/${id}`;
 
-const ws = new WebSocket(`ws://${API_BASE}/ws`);
-
 const machines = new Map();
 let updateInterval = null;
 
